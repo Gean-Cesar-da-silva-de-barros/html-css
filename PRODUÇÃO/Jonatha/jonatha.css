@@ -1,0 +1,302 @@
+
+*{
+ 
+  font-family: Arial;
+}
+
+header{
+  display: flex;
+  justify-content: center;
+  background-image:url('..//Jonatha/imagens/Fundo\ branco.jpg');
+ 
+}
+
+.container{
+  display: flex;
+  justify-content: space-between; /*usado para deixar um coteudo do lado do outro, um na ponta esquerda e o outro na direita*/
+  width: 990px;
+ 
+}
+.logo{
+ display: flex;
+ align-items: center;
+ 
+}
+.menu{  
+
+  display: flex;
+  align-items: center;
+}
+nav ul,
+nav li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul{
+  display: flex;
+  
+}
+
+nav a {
+  display: block;
+  padding: 15px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #000000;
+  
+}
+
+nav a:hover {
+  background-color: #39aae1;
+  color: #ffffff;
+}
+.contato{
+display: flex;
+background: linear-gradient(45deg, #0a2222, #284564); /* Gradiente de cores */
+color: white; /* Cor do texto */
+font-size: 20px; /* Tamanho do texto */
+font-weight: bold; /* Negrito */
+padding: 12px 25px; /* Espaçamento interno */
+border: none; /* Remove a borda */
+cursor: pointer; /* Mãozinha ao passar o mouse */
+transition: 0.3s ease-in-out; /* Efeito de transição suave */
+box-shadow: 0px 4px 10px rgba(0, 35, 233, 0.2); /* Sombra para efeito 3D */
+font-family: Georgia, 'Times New Roman', Times, serif;
+    
+/* Centralizando o texto */
+display: flex; /* Ativa o flexbox */
+align-items: center; /* Alinha o texto verticalmente */
+justify-content: center; /* Alinha o texto horizontalmente */
+text-align: center; /* Garante que o texto esteja centralizado */
+}
+.contato:hover{
+  background: linear-gradient(45deg, #0320a3, #085a9e); /* Inverte o degrade ao passar o mouse */
+    transform: scale(1.1); /* Aumenta um pouco o botão */
+}
+
+
+
+
+.main{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(36, 150, 226);
+    
+}
+
+
+#banner {
+ display: flex;
+ justify-content: center;
+ background-image:url('..//Jonatha/imagens/BACK2.png');
+ background-position: center;
+ background-size: cover;
+ height: 670px;
+}
+
+.column {
+  flex-direction: column;
+}
+
+.banner_headline {
+  flex: 1;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  
+}
+.banner_headline h1 {
+  font-style:italic;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  color: #ffffff;
+  font-size: 60px;
+  text-shadow: 2px 2px 0px  rgb(0, 0, 0);
+  margin: 0;  
+  padding: 0;
+}
+
+.banner_options {
+  height: 210px;
+  display: flex;   
+}
+.banner1,
+.banner2,
+.banner3 {
+  flex: 1;
+  color: #ffffff;
+  padding: 10px;
+  
+}
+.banner1{
+
+background-color: #808080;
+}
+.banner1:hover{
+  background-color: #43caff;
+}
+.banner2{
+  background-color: #666666;  
+}
+.banner2:hover{
+  background-color: #2bceff;
+}
+.banner3{
+  background-color: rgb(139, 139, 139);
+}
+.banner3:hover{
+  background-color: #20c0ff;
+}
+.banner_title{
+  color: #000000;
+  font-size: 25px;
+  font-style:italic;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  text-shadow: 1px 1px 0px rgb(255, 255, 255);
+}
+.banner_desc{
+font-size: 15px;
+margin-bottom: 20px;
+margin-top: 10px;
+}
+
+
+
+.container .column{
+ display: flex;
+ justify-content: center;
+ background-image:url('..//Jonatha/imagens/Fundo\ branco.jpg');
+ background-position: center;
+ background-size: cover;
+ height: 670px;
+ 
+
+}
+.banner {
+ display: flex;
+ justify-content: center;
+ background-image:url('../Jonatha/imagens/BACK3.png');
+ background-position: center;
+ background-size: cover;
+ height: 670px;
+}
+
+
+footer {
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  justify-content: center;
+}
+.footer_menu{
+ display: flex;
+ flex: 1;
+ 
+ 
+}
+
+.fm_1,.fm_2,.fm_3 {
+  flex: 1;
+  color:#ffffff;
+  padding: 20px;
+  
+}
+.fm_1{
+
+}
+.fm_2{
+ h1{ 
+  font-style:italic;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold; }
+ h7{
+  font-size: 15px;
+  font-style:italic;
+
+ }   
+}
+.fm_3{
+  h2{
+    font-style:italic;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+  }
+  img {
+
+  width: 40px;   
+  object-fit: cover; /* Ajusta a exibição sem distorcer */
+  padding-right: 20px;
+  }
+  
+}
+.flexcolumn{
+  flex-direction: column;
+}
+.footer_copy{
+ 
+color: #5c5c5c;
+flex-direction: column-reverse;
+}
+.menuMobile { 
+  display: none;
+  display: block;/* só vai aparecer se for em res de celular*/
+  width: 40px;
+  height: 40px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin-right: 20px;
+}
+.mm_line {
+  height: 2px;
+  background-color: #0013c0;
+}
+
+/* Esse @media embaixo é as resoluções/resposividade a partir de outros dispositivos e tamanhos.. */
+@media (max-width:600px) { 
+  .banner_headline {
+  padding: 20px;
+  }
+  .banner_headline h1 {
+    display: flex;
+    flex: 2; 
+    font-size: 15px;
+  }  
+ 
+  .banner_options {
+  height: auto;
+  flex-direction: column; }
+
+  .fm_3 {
+    h2 {
+    font-size: 20px;
+    font-style:italic;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;}
+    
+    img{ 
+    width: 25px;   
+    object-fit: cover; /* Ajusta a exibição sem distorcer */
+    padding-right: 10px;}
+  
+  
+  }
+    .footer_copy {
+    color: #5c5c5c;
+    flex-direction: column-reverse;
+    font-size: 10px;
+  }
+  .footer_menu{
+    flex-direction: column;
+  }
+  .Contato{
+    flex-direction: column;
+  }
+  
+}
+
+  
+
+
+

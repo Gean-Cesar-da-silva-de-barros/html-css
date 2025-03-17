@@ -1,0 +1,96 @@
+.container{
+    display: flex;
+    background-color: #3223ff;
+    flex-direction: column;
+}
+.Desc{
+    height: 110px;
+    text-align: center;
+    flex-direction: column;
+    h1{
+        font-style: italic;
+        font-family: sans-serif;
+        color: rgb(0, 0, 0);
+        text-shadow: 0px 2px 2px #ffffff;
+        font-size: 60px;
+        font-weight: bold;
+        
+    }
+    h3{
+        font-style: italic;
+        font-family: sans-serif;
+        color: rgb(255, 255, 255);
+    }
+    
+}
+
+.logo{
+    margin: 70px;
+    display: flex;
+    flex-direction: column;
+    background-color: #0329ff;
+    padding-top: 10PX;
+    border: 3px solid #ffffff; /* Define a borda com 5px de espessura, cor #ff5733 */
+    border-radius: 10px; /* Adiciona bordas arredondadas */
+   
+}
+.imagem{
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+   display: flex;
+   img{
+    border: 1px solid #ffffff; /* Define a borda com 5px de espessura, cor #ff5733 */
+    border-radius: 10px; /* Adiciona bordas arredondadas */
+   
+   }
+  
+}
+
+.historia{
+    display: flex;
+    font-family:arial;
+    text-align: center;
+    padding-top: 10px;
+    color: aliceblue;
+    p{
+        font-family: 'Roboto', sans-serif;
+    }
+}
+.anos{
+    padding: 20px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    background-color: #006eff;
+    h1{
+        padding-top: 30px;
+        font-size: 30px;
+        font-style: italic;
+        font-family: sans-serif;
+        color: rgb(255, 255, 255);
+        text-shadow: 0px 2px 2px #000000;
+    }
+    p{
+        background-color: #000000;
+        font-size: 24px;
+        color: #ffffff;
+    }
+    h4{
+        font-size: 20px;
+    }
+    border: 2px solid #ffffff;
+    border-radius: 10px; /* Adiciona bordas arredondadas */
+}
+.footer{
+    display: flex;  
+}
+.rodape{
+    text-align: center;
+    height: 20px;
+    background: linear-gradient(rgb(255, 255, 255),blue);
+
+}
