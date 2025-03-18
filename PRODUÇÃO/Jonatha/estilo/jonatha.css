@@ -7,7 +7,7 @@
 header{
   display: flex;
   justify-content: center;
-  background-image:url('..//Jonatha/imagens/Fundo\ branco.jpg');
+  background-image:url('../imagens/Fundo\ branco.jpg');
  
 }
 
@@ -90,7 +90,7 @@ text-align: center; /* Garante que o texto esteja centralizado */
 #banner {
  display: flex;
  justify-content: center;
- background-image:url('..//Jonatha/imagens/BACK2.png');
+ background-image:url('..//imagens/BACK2.png');
  background-position: center;
  background-size: cover;
  height: 670px;
@@ -168,7 +168,7 @@ margin-top: 10px;
 .container .column{
  display: flex;
  justify-content: center;
- background-image:url('..//Jonatha/imagens/Fundo\ branco.jpg');
+ background-image:url('..//imagens/Fundo\ branco.jpg');
  background-position: center;
  background-size: cover;
  height: 670px;
@@ -178,7 +178,7 @@ margin-top: 10px;
 .banner {
  display: flex;
  justify-content: center;
- background-image:url('../Jonatha/imagens/BACK3.png');
+ background-image:url('..//imagens/BACK3.png');
  background-position: center;
  background-size: cover;
  height: 670px;
