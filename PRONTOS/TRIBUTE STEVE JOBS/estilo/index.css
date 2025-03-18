@@ -1,6 +1,9 @@
+body{
+    background-color: #000000;
+}
 .container{
     display: flex;
-    background-color: #3223ff;
+    background-color: #ff0000;
     flex-direction: column;
 }
 .Desc{
@@ -28,7 +31,7 @@
     margin: 70px;
     display: flex;
     flex-direction: column;
-    background-color: #0329ff;
+    background-color: #ff5656;
     padding-top: 10PX;
     border: 3px solid #ffffff; /* Define a borda com 5px de espessura, cor #ff5733 */
     border-radius: 10px; /* Adiciona bordas arredondadas */
@@ -65,7 +68,7 @@
     justify-content: center;
     align-items: center;
     height: 400px;
-    background-color: #006eff;
+    background-color: #a50000;
     h1{
         padding-top: 30px;
         font-size: 30px;
