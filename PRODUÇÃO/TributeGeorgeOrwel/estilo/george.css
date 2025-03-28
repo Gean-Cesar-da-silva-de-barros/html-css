@@ -1,16 +1,57 @@
-header{
+
+
+.container{  
     display: flex;
     justify-content: center;
-    background-color: blanchedalmond;
-    height: 114px;
-    width: 1327px;
+    align-items: center;    
+    text-align: center;  
+    background-color: rgb(230, 230, 230);
 }
 
-.container{
+.Autor{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+h1{
+    font-size: 50px;
+    text-shadow: 2px 2px 2px #000;
+   
+}
+h4{
+    font-size: 20px;
+}
+}
+
+.imagem-principal{    
+   
+    p{   
+        text-align: center;
+        font-size: 20PX;  
+    }
+}
+img{
+    padding: 0px;
+    border: 2px solid #000; /* Borda preta de 2px */
+    border-radius: 8px; /* Borda arredondada opcional */
+}
+.timeline{
+    padding-top: 20px;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    text-align: left;
+    width: 850px;
+    margin: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+    word-wrap: break-word;
+    line-height: 1.4;  /* Espaçamento 1.6x o tamanho da fonte */
+    border: 2px solid #ffffff; /* Borda preta de 2px */
+    border-radius: 8px; /* Borda arredondada opcional */
+
+    
+}
+.rodape{
     display: flex;
+    text-align: center;
+    justify-content: center;
+    background-color: rgb(0, 0, 0);
+    color: blanchedalmond;
 }
-.rosto{
-  
-    height: 50px;
-    width: 50px;
-}
+       
