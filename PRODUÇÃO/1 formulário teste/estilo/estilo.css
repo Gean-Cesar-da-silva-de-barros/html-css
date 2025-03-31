@@ -1,0 +1,12 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.cabecalho{
+    background-color: aqua;
+}
+.enviar{
+    background-color: blueviolet;
+}
