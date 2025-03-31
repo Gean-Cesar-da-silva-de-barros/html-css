@@ -10,8 +10,9 @@ body{
     flex-direction: column;
 }
 .cabecalho{
-    background-color: aqua;
+    border: 2px solid #000000;
     display: flex;
+    background-color: antiquewhite;
 }
 .article{
     padding: 5px;
