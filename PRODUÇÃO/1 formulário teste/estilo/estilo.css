@@ -1,3 +1,8 @@
+body{
+    
+    background-image: url(../imagens/ChatGPT\ Image\ 31\ de\ mar.\ de\ 2025\,\ 19_14_43.png);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
 .container{
     display: flex;
     justify-content: center;
@@ -6,15 +11,36 @@
 }
 .cabecalho{
     background-color: aqua;
+    display: flex;
 }
-.enviar{
-    background-color: blueviolet;
+.article{
+    padding: 5px;
+    margin: 2px;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center ;
+    align-items:center;
+    flex-direction: column;
+    border: 2px solid #000000;
+    h2{
+        border: 1px solid #000000;
+    }
 }
-header{background-color: chartreuse;
+form{
+    display: flex;
+    flex-direction: column;
+
 }
-main{
-    background-color: brown;
+.botaoenviar{
+   margin-top: 5px;
+
 }
-.nome{
-    
+button:hover{
+    background-color: #058a00;
+   
+}
+.article2{
+    height: 200px;
+    border: 2px solid #000000;
+
 }
