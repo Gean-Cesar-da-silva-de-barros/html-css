@@ -1,47 +1,74 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
 body{
     
-    background-image: url(../imagens/ChatGPT\ Image\ 31\ de\ mar.\ de\ 2025\,\ 19_14_43.png);
+    background-image: url(../imagens/ChatGPT\ Image\ 3\ de\ abr.\ de\ 2025\,\ 17_01_15.png);
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .container{
     display: flex;
-    justify-content: center;
     align-items: center;
-    flex-direction: column;
+    justify-content: center;
+    text-align: center;
 }
 .cabecalho{
-    border: 2px solid #000000;
-    display: flex;
-    background-color: antiquewhite;
-}
-.article{
+    padding-top: 70px;
+   text-shadow: 2px 2px 2px #3a3a3a;        
+   h1{
+    color: rgb(255, 255, 255);
+    background-color: #F05642;
+    border: 2px solid #ffffff;
+    border-radius: 5px;
     padding: 5px;
-    margin: 2px;
-    background-color: antiquewhite;
-    display: flex;
-    justify-content: center ;
-    align-items:center;
-    flex-direction: column;
-    border: 2px solid #000000;
-    h2{
-        border: 1px solid #000000;
-    }
+   }
+   
 }
+
+
+
 form{
     display: flex;
     flex-direction: column;
-
 }
-.botaoenviar{
-   margin-top: 5px;
 
-}
-button:hover{
-    background-color: #058a00;
+.container2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
    
 }
-.article2{
-    height: 200px;
-    border: 2px solid #000000;
 
+.article{
+    background-color: #ffffff;
+    border: 2px solid #000;
+    border-radius: 5px;
+    width: 400px;
+    padding: 10px;
+    margin: 10px;
+    h2{
+        color: #000000;    
+    }
+}
+.botaoenviar{
+    display: flex;
+    justify-content: center;
+}
+.footer{
+    text-align: center;
+    padding: 10px;
+    background-color: #000000;
+}
+
+.rodape1{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background-color: #1EB2B0;
+    color: blanchedalmond;
+    border: 0;
 }
