@@ -25,9 +25,6 @@ body{
     border: 2PX solid #fff;
     border-radius: 5px;
     background-color: rgb(3, 223, 131);
-    p{  width: 600px;
-        color: rgb(0, 0, 0);
-    }
 }
 .imagens{
     display: flex;
@@ -36,35 +33,28 @@ body{
    
 
 }
-.conteudo2{
+.container3{
     display: flex;
+    justify-content: center;
     flex-direction: column;
     align-items: center;
+    text-align: center;    
 }
 .conteudo3{
-
     background-color: rgb(5, 209, 124);
-    width: 700px;
     border: 2PX solid #fff;
     border-radius: 5px;
     padding: 5px;
+   
     
-
-}
-.conteudo4{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+   
 }
 .conteudo5{
-
     background-color: rgb(6, 167, 67);
-    width: 700px;
     border: 2PX solid #fff;
     border-radius: 5px;
     padding: 5px;
     
-
 }
 
 
