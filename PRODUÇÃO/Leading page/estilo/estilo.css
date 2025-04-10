@@ -19,41 +19,44 @@ body{
         text-shadow: 2px 2px 2px #000000;
     }
 }
-
+.head:hover{
+    color:rgb(3, 223, 131);
+}
 .conteudo{
     margin: 5px;
     border: 2PX solid #fff;
     border-radius: 5px;
     background-color: rgb(3, 223, 131);
-}
-.imagens{
-    display: flex;
-    justify-content: center; 
-    margin: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
    
-
 }
+
+
 .container3{
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    text-align: center;    
+    text-align: center;  
+  
 }
 .conteudo3{
     background-color: rgb(5, 209, 124);
     border: 2PX solid #fff;
     border-radius: 5px;
     padding: 5px;
-   
-    
-   
+    margin-left: 50px;
+    margin-right: 50px;   
 }
 .conteudo5{
     background-color: rgb(6, 167, 67);
     border: 2PX solid #fff;
     border-radius: 5px;
     padding: 5px;
+    
+}
+.conteudo6{
     
 }
 
