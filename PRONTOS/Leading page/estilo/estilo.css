@@ -13,15 +13,27 @@ body{
     padding: 0px;
     margin: 5px;
     width: 200px;
-    background-color: rgb(255, 255, 255);
+    text-decoration: none;
+         
   
     h1{
+        cursor: pointer;
         text-shadow: 2px 2px 2px #000000;
     }
 }
+.meu-link {
+    text-decoration: none;
+    color: #000;
+   
+  }
+.meu-link:hover{
+    text-shadow: 2px 2px 2px #000000;
+    transition: all 0.1s linear;
+    color: #03DF83;
+}
 .head:hover{
     color:rgb(63, 63, 63);
-    transition: all 0.1s linear;
+    transition: all 0.3s linear;
 }
 .conteudo{
     margin: 5px;
@@ -57,11 +69,11 @@ body{
     padding: 5px;
     
 }
-.rodape{
+
+.redes{
     display: flex;
+    align-items: center;
     justify-content: center;
-    background-color: aliceblue;
-    color: rgb(0, 0, 0);
-    margin-top: 50px;
- 
+    background-color:  rgb(227, 236, 243);
+
 }
