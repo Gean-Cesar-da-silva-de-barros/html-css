@@ -4,22 +4,40 @@ body{
 
 }
 .container{
+
     display: flex;
-    justify-content: center;
-    text-align: center;
     align-items: center;
+    justify-content:center;
+    
 }
 .head{
     padding: 0px;
     margin: 5px;
     width: 200px;
     text-decoration: none;
-         
-  
     h1{
         cursor: pointer;
         text-shadow: 2px 2px 2px #000000;
     }
+}
+.link{
+    display: flex;
+    justify-content: center;
+    margin-left: 50px;
+    margin-right: 50px;
+ 
+}
+.links{   
+    margin-right: 10px;
+    margin-left: 10px;
+    padding: 5px;
+    color: #000000; 
+    text-decoration: none;
+}
+.links:hover{
+    cursor: pointer;
+    text-shadow: 1px 1px 1px #000000;
+   
 }
 .meu-link {
     text-decoration: none;
@@ -36,13 +54,13 @@ body{
     transition: all 0.3s linear;
 }
 .conteudo{
-    margin: 5px;
+    margin: 20px;
     border: 2PX solid #fff;
     border-radius: 5px;
     background-color: rgb(3, 223, 131);
     margin-left: 50px;
     margin-right: 50px;
-   
+    
 }
 
 
