@@ -1,24 +1,29 @@
 body{
-    background-color: rgb(255, 255, 255);
+    
     font-family: Georgia, 'Times New Roman', Times, serif;
-
+    background-image:url(../imagens/fundo.png);
+    
 }
 .container{
-
     display: flex;
     align-items: center;
     justify-content:center;
     
 }
 .head{
-    padding: 0px;
-    margin: 5px;
-    width: 200px;
-    text-decoration: none;
-    h1{
+    font-size: 40px;   
+    color: #ffffff;
+    p{
         cursor: pointer;
         text-shadow: 2px 2px 2px #000000;
     }
+}
+.head::first-letter{
+    font-size: 65px;
+}
+.head:hover{
+    color:rgba(43, 255, 54);
+    transition: all 0.3s linear;
 }
 .link{
     display: flex;
@@ -39,27 +44,22 @@ body{
     text-shadow: 1px 1px 1px #000000;
    
 }
-.meu-link {
-    text-decoration: none;
-    color: #000;
-   
-  }
+
 .meu-link:hover{
     text-shadow: 2px 2px 2px #000000;
     transition: all 0.1s linear;
     color: #03DF83;
 }
-.head:hover{
-    color:rgb(63, 63, 63);
-    transition: all 0.3s linear;
-}
+
 .conteudo{
     margin: 20px;
+    padding: 5px;
     border: 2PX solid #fff;
-    border-radius: 5px;
-    background-color: rgb(3, 223, 131);
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
     margin-left: 50px;
     margin-right: 50px;
+    color: #fff;
     
 }
 
@@ -70,21 +70,31 @@ body{
     flex-direction: column;
     align-items: center;
     text-align: center;  
+    h2{
+        color: #ffffff;
+        background-color: rgba(0, 0, 0, 0.5);;
+        border: 2px solid black;
+        border-radius: 20px;
+        padding: 4px;
+    }
   
 }
+
 .conteudo3{
-    background-color: rgb(5, 209, 124);
+    background-color:  #BCB58D;
     border: 2PX solid #fff;
-    border-radius: 5px;
+    border-radius: 20px;
     padding: 5px;
     margin-left: 50px;
-    margin-right: 50px;   
+    margin-right: 50px; 
+    color: #000000;  
 }
 .conteudo5{
-    background-color: rgb(6, 167, 67);
+    background-color: #81ADFE;
     border: 2PX solid #fff;
-    border-radius: 5px;
+    border-radius: 20px;
     padding: 5px;
+    color: #000000;
     
 }
 
@@ -92,6 +102,6 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color:  rgb(227, 236, 243);
+    background-color:  rgb(109, 109, 109,0.5);
 
 }
