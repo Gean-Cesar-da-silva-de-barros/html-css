@@ -1,0 +1,18 @@
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+
+}
+table{
+    background-color: aqua  ;
+    padding: 5px;
+    margin: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+table tr:nth-child(even) {
+    background-color: rgb(180, 136, 78);
+}
