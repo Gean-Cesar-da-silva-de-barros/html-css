@@ -1,0 +1,22 @@
+
+h2{
+    border: 5px solid #1a0be7;
+    border-radius: 20px;
+    padding: 10px;
+    width: 600px;
+    position: absolute;
+    background-color: #3D7DC4;
+    color: aliceblue;
+    transform: rotate(-45deg);
+    margin-top: 120px;
+    font-size: 50px;
+    margin-left:-170px;
+    
+    
+}
+.tarja{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(42, 65, 165);
+  
+}
