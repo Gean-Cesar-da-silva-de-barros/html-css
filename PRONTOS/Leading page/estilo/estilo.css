@@ -1,8 +1,24 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
 body{
     
     font-family: Georgia, 'Times New Roman', Times, serif;
-    background-image:url(../imagens/fundo.png);
+    overflow-x:hidden;
+    margin: 0;
+    padding: 0;
+    P {
+        line-height: 1.5;
+    }
     
+}
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto; /* Centraliza tudo */
+    padding: 0 20px; /* Espaço nas bordas para telas pequenas */
 }
 .container{
     display: flex;
@@ -81,6 +97,7 @@ body{
 }
 
 .conteudo3{
+    background-image:url(../imagens/fundo.png) ;
     background-color:  #BCB58D;
     border: 2PX solid #fff;
     border-radius: 20px;
@@ -88,6 +105,9 @@ body{
     margin-left: 50px;
     margin-right: 50px; 
     color: #000000;  
+    P {
+        line-height: 1.5;
+    }
 }
 .conteudo5{
     background-color: #81ADFE;
@@ -102,6 +122,6 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color:  rgb(109, 109, 109,0.5);
+    background-color:rgb(0, 0, 0,0.5)
 
 }
