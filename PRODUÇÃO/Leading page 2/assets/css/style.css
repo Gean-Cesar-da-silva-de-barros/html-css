@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300..800&family=Oswald&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    font-family: 'Open Sans', sans-serif ;
+    font-size: 13px;
+    background: linear-gradient(to right, #ffffff, #ffffff);
+    background-size: cover;
+}
+
+.header {
+    max-width:1140px;
+    height:100px;
+    margin:auto;
+    display:flex;
+    align-items:center;
+    background-color: rgb(93, 93, 93);
+    justify-content: space-between; /* Espaço entre imagem e conteúdo */
+
+}
+header{
+    height:100px;
+    color:#FFF;
+  
+   
+}
+
+.logo{
+    width: 100px;
+    padding-left: 80px;
+}
+.logoimg{
+    background-image:url(../../media/5.jpg) ;
+    background-size: cover;
+    background-position: center;
+    width: 80px;
+    height: 80px;
+    background-color: brown;
+    border-radius: 40px;
+    
+}
+.menu {
+    display: flex;
+    
+}
+ul {
+    display: flex;
+    padding-right: 80px;
+    
+}
+li {
+    padding: 10px;
+    text-decoration: none;
+    list-style: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    a {
+        list-style: none;
+        text-decoration: none;
+        color: #FFF;
+    }    
+}
+li:hover{
+    a{
+        color: #000;
+        transition: 0.3s;
+        
+    }
+}
+.principal {
+    background-image:url(../../media/7.jpg) ;
+    background-size: cover;
+    background-position: center;
+    max-width:1140px;
+    height: 1000px;
+    margin:auto;
+    display:flex;
+    justify-content: space-between;
+    background-color: aqua;
+}
+
+
+.imagem--inicial img {
+    width: 400px;
+    height: 400px;
+
+}
+
+
+main{
+    display: flex;  
+    flex-direction: column;
+    color: #FFF;
+    font-size: 18px;
+    padding: 10px 20px;
+    
+}
+
+
+
+footer{
+    max-width:1140px;
+    height: 100px;
+    margin:auto;
+    display:flex;
+    align-items:center;
+    justify-content: space-between; /* Espaço entre imagem e conteúdo */
+    background-color: rgb(123, 126, 122);
+    padding-left: 30px;
+    padding-right: 30px;
+ 
+}
+.rodape{
+    font-size: 18px;
+    background-color: #000;
+    color: #ffffff;
+    a {
+        text-decoration: none;
+        list-style: none;
+        color: red
+    }
+    
+    
+}
