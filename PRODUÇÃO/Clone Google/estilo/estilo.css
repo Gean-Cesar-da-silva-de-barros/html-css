@@ -1,4 +1,5 @@
-html, body {
+html,
+body {
     height: 100%;
     margin: 0;
     padding: 0;
@@ -6,56 +7,65 @@ html, body {
     flex-direction: column;
 }
 
-.cabecalho{
+/* Faz o main crescer e empurra o footer para o final */
+main {
+    flex: 1;
+}
+
+.cabecalho {
     display: flex;
     justify-content: flex-end;
     margin-right: 20px;
 }
-.topo{
-  
+
+.topo {
     margin: 5px;
     padding: 2px;
 }
-.container{
+
+.container {
     display: flex;
     justify-content: center;
-    
 }
-.clonegoogle{
+
+.clonegoogle {
     margin-top: 50px;
     height: 250px;
-  
 }
-.pesquisa{
-    width:500px;
+
+.pesquisa {
+    width: 500px;
     height: 30px;
     border: 2px solid #aaaaaa;
     border-radius: 20px;
     padding: 8px;
-    
-}
-.button{
-    display: flex;
-    justify-content: center;
-    margin: 10px;  
 }
 
-.nada{ 
+.button {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+.nada {
     width: 200px;
     height: 200px;
- }
- 
- .contato0{
+}
+
+/* Primeiro footer */
+.contato0 {
     display: flex;
     align-items: center;
     justify-content: space-between;
     background-color: #b8b8b8;
- }
- .contato1{
+    padding: 5px 20px;
+}
+
+/* Segundo footer */
+.contato1 {
     display: flex;
     justify-content: center;
-    flex-direction: column;
     align-items: center;
-
     background-color: #aaaaaa;
- }
+    padding: 5px;
+}
